@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Freepok Food</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <style>
+      /* Target the image inside the col-lg-6 div */
+      .col-lg-6 img {
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="./assets/images/111.png" alt="Logo" height="60px" />
+          <span
+            class="fw-bold"
+            style="
+              margin-left: 10px;
+              font-size: 30px;
+              font-family: Times New Roman;
+            "
+            >Fpg</span
+          >
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link fw-bold" href="#banner">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bold" href="#about">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bold" href="#category">Category</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bold" href="#work">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bold" href="#reviews">Testimonial</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bold" href="#appointment">Appointment</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--banner-->
+    <div id="banner" class="banner d-flex align-items-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 offset-lg-3 text-center">
+            <!-- Centering the column -->
+            <h1
+              class="display-2 fw-bold sha"
+              style="
+                font-size: 50px;
+                font-family: Amazon Ember;
+                color: rgb(248, 248, 248);
+                text-shadow: 5px 6px 6px rgb(0, 0, 0);
+              "
+            >
+              Welcome to
+              <span style="color: rgb(231, 143, 10)">Freepok </span>Food
+            </h1>
+            <p
+              class="text-white"
+              style="
+                font-size: 15px;
+                font-family: Amazon Ember;
+                text-shadow: 5px 6px 6px rgb(0, 0, 0);
+              "
+            >
+              Where Culinary Exploration Meets Wholesome Indulgence! Whether
+              you're here to discover new flavors, embrace healthy eating
+              habits, or simply enjoy the pleasure of cooking.
+            </p>
+            <a
+              href="#work"
+              class="btn btn-brand"
+              style="font-size: 20px; font-family: Times New Roman"
+              >Order now</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--section-->
+    <section id="about">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <div
+              class="image-container"
+              style="height: 100%; overflow: hidden; border-radius: 10px"
+            >
+              <img
+                src="./assets/images/4747300.jpg"
+                style="
+                  max-width: 100%;
+                  height: auto;
+                  display: block;
+                  box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.5);
+                "
+              />
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <h7
+              class="display-3 fw-bold"
+              style="font-family: Times New Roman; color: rgb(231, 143, 10)"
+              >About</h7
+            >
+            <br />
+            <h4
+              class="display-6 text-white fw-bold"
+              style="font-family: Times New; margin-top: 20px"
+            >
+              Freepook Food is your ultimate destination for culinary
+              inspiration and healthy living.
+            </h4>
+            <p class="text-white" style="font-family: Times New Roman">
+              Whether you're a seasoned chef or a novice in the kitchen, our
+              diverse collection of recipes, cooking tips, and nutritional
+              insights caters to all tastes and dietary preferences. Join us on
+              a flavorful journey as we embrace the joys of cooking and savor
+              the pleasures of wholesome eating with Freepook Food.
+            </p>
+            <div class="col-lg-6">
+              <a href="#work" class="btn btn-brand">About!</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--services-->
+    <section id="services">
+      <div class="container">
+        <div class="pb-5 text-center">
+          <h3
+            class="display-4 fw-bold"
+            style="font-family: Times New Roman; color: rgb(231, 143, 10)"
+          >
+            Services
+          </h3>
+          <div>
+            <p style="font-family: Times New Roman; color: white">
+              Freepok Food offers personalized meal plans, <br />
+              engaging cooking classes, and expert nutritional consultations to
+              support your journey towards healthy eating and culinary mastery.
+            </p>
+          </div>
+          <div class="row row-cols-lg-3">
+            <div class="col">
+              <div class="card p-4" style="width: 22rem">
+                <div class="card-body d-flex flex-column align-items-center">
+                  <!-- Added d-flex flex-column align-items-center -->
+                  <img
+                    src="./assets/images/diet.png"
+                    class="card-img-top icon-box-img"
+                    alt="logo"
+                  />
+                  <h5 class="card-title mt-3">Customized Meal Plans</h5>
+                  <!-- Added mt-3 for top margin -->
+                  <p class="card-text">
+                    Tailored to Your Taste and Dietary Preferences.
+                  </p>
+                  <a href="#" class="btn btn-outline-brand">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card p-4" style="width: 22rem">
+                <div class="card-body d-flex flex-column align-items-center">
+                  <!-- Added d-flex flex-column align-items-center -->
+                  <img
+                    src="./assets/images/ramen.png"
+                    class="card-img-top icon-box-img"
+                    alt="logo"
+                  />
+                  <h5 class="card-title mt-3">Cooking Classes</h5>
+                  <!-- Added mt-3 for top margin -->
+                  <p class="card-text">
+                    Master the Art of Delicious and Nutritious Cuisine.
+                  </p>
+                  <a href="#" class="btn btn-outline-brand">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card p-4" style="width: 22rem">
+                <div class="card-body d-flex flex-column align-items-center">
+                  <!-- Added d-flex flex-column align-items-center -->
+                  <img
+                    src="./assets/images/salad.png"
+                    class="card-img-top icon-box-img"
+                    alt="logo"
+                  />
+                  <h5 class="card-title mt-3">Nutritional Consultations</h5>
+                  <!-- Added mt-3 for top margin -->
+                  <p class="card-text">
+                    Expert Guidance for Healthy Eating and Lifestyle.
+                  </p>
+                  <a href="#" class="btn btn-outline-brand">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--CTA-->
+    <div id="cta" class="cta d-flex align-items-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h1
+              class="display-2 text-light fw-bold sha"
+              style="
+                font-size: 50px;
+                font-family: Times New Roman;
+                text-shadow: 4px 3px 5px rgb(0, 0, 0);
+              "
+            >
+              Freepok Food
+            </h1>
+            <p
+              class="text-white"
+              style="
+                font-size: 20px;
+                font-family: Times New Roman;
+                text-shadow: 3px 2px 4px rgb(0, 0, 0);
+              "
+            >
+              Freepok Food offers a delightful blend of culinary creativity and
+              nutritional excellence, providing a diverse array of recipes and
+              services <br />
+              to inspire healthy living and satisfy every palate.
+            </p>
+            <a
+              href="#work"
+              class="btn btn-brand"
+              style="
+                font-size: 20px;
+                font-family: Times New Roman;
+                color: bisque;
+              "
+              >Buy now!</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--reviews-->
+    <section>
+      <div id="reviews">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <h2
+                class="display-2 fw-bold"
+                style="color: white; font-family: Times New Roman"
+              >
+                Reviews
+              </h2>
+              <p style="font-family: Times New Roman; color: white">
+                What impressed me the most was their dedication to quality and
+                innovation. Each dish was meticulously crafted with fresh,
+                high-quality ingredients, bursting with vibrant flavors and
+                textures that tantalized the taste buds.
+              </p>
+            </div>
+          </div>
+          <!--review card-->
+          <div class="row row-cols-lg-3">
+            <div class="col">
+              <div class="testimonials mt-4">
+                <div class="d-flex">
+                  <img src="./assets/images/user.png" alt="logo" />
+                  <div class="ms-2 mb-2">
+                    <h3 class="text-dark">John Doe</h3>
+                    <p class="text-dark">john.doe@example.com</p>
+                    <div class="rating-stars">
+                      <i class="fas fa-star">⭐</i>
+                      <i class="fas fa-star">⭐</i>
+                      <i class="fas fa-star">⭐</i>
+                      <i class="fas fa-star">⭐</i>
+                      <i class="far fa-star">⭐</i>
+                    </div>
+                  </div>
+                </div>
+                <p class="text-dark" style="font-family: Times New Roman">
+                  I stumbled upon Freepok Food and it has been a game-changer
+                  for me! The recipes are fantastic, and the nutritional
+                  insights have helped me make healthier choices. Can't
+                  recommend it enough!
+                </p>
+              </div>
+            </div>
+            <div class="col">
+              <div class="testimonials mt-4">
+                <div class="d-flex">
+                  <img src="./assets/images/user.png" alt="logo" />
+                  <div class="ms-2 mb-2">
+                    <h3 class="text-dark">Emily Johnson</h3>
+                    <p class="text-dark">emily.johnson@example.com</p>
+                    <div class="rating-stars">
+                      <i class="fas fa-star">⭐</i>
+                      <i class="fas fa-star">⭐</i>
+                      <i class="fas fa-star">⭐</i>
+                      <i class="fas fa-star">⭐</i>
+                      <i class="far fa-star">⭐</i>
+                    </div>
+                  </div>
+                </div>
+                <p class="text-dark" style="font-family: Times New Roman">
+                  Freepok Food has made cooking enjoyable again! Their diverse
+                  collection of recipes caters to all tastes, and the cooking
+                  tips have improved my skills in the kitchen. Thanks for making
+                  healthy eating delicious!
+                </p>
+              </div>
+            </div>
+            <div class="col">
+              <div class="testimonials mt-4">
+                <div class="d-flex">
+                  <img src="./assets/images/user.png" alt="logo" />
+                  <div class="ms-2 mb-2">
+                    <h3 class="text-dark">Olivia Smith</h3>
+                    <p class="text-dark">olivia.smith@example.com</p>
+                    <div class="rating-stars">
+                      <i class="fas fa-star">⭐</i>
+                      <i class="fas fa-star">⭐</i>
+                      <i class="fas fa-star">⭐</i>
+                      <i class="fas fa-star">⭐</i>
+                      <i class="far fa-star">⭐</i>
+                    </div>
+                  </div>
+                </div>
+                <p class="text-dark" style="font-family: Times New Roman">
+                  As someone who's always busy, Freepok Food has been a
+                  lifesaver! Their quick and easy recipes have saved me so much
+                  time in the kitchen, and the best part is, they're incredibly
+                  delicious!
+                </p>
+              </div>
+            </div>
+            <div class="col">
+              <div class="testimonials mt-4">
+                <div class="d-flex">
+                  <img src="./assets/images/user.png" alt="logo" />
+                  <div class="ms-2 mb-2">
+                    <h3 class="text-dark">James Wilson</h3>
+                    <p class="text-dark">james.wilson@example.com</p>
+                    <div class="rating-stars">
+                      <i class="fas fa-star">⭐</i>
+                      <i class="fas fa-star">⭐</i>
+                      <i class="fas fa-star">⭐</i>
+                      <i class="fas fa-star">⭐</i>
+                      <i class="far fa-star"></i>
+                    </div>
+                  </div>
+                </div>
+                <p class="text-dark" style="font-family: Times New Roman">
+                  Freepok Food has transformed the way I eat! Their recipes are
+                  not only delicious but also nutritious. I've never enjoyed
+                  cooking this much before. Highly recommended!
+                </p>
+              </div>
+            </div>
+            <div class="col">
+              <div class="testimonials mt-4">
+                <div class="d-flex">
+                  <img src="./assets/images/user.png" alt="logo" />
+                  <div class="ms-2 mb-2">
+                    <h3 class="text-dark">Sophia Brown</h3>
+                    <p class="text-dark">sophia.brown@example.com</p>
+                    <div class="rating-stars">
+                      <i class="fas fa-star">⭐</i>
+                      <i class="fas fa-star">⭐</i>
+                      <i class="fas fa-star">⭐</i>
+                      <i class="fas fa-star">⭐</i>
+                      <i class="far fa-star"></i>
+                    </div>
+                  </div>
+                </div>
+                <p class="text-dark" style="font-family: Times New Roman">
+                  Freepok Food has been a game-changer for my health! Their
+                  recipes are not only delicious but also easy to make. I've
+                  noticed a significant improvement in my energy levels.
+                </p>
+              </div>
+            </div>
+            <div class="col">
+              <div class="testimonials mt-4">
+                <div class="d-flex">
+                  <img src="./assets/images/user.png" alt="logo" />
+                  <div class="ms-2 mb-2">
+                    <h3 class="text-dark">William Taylor</h3>
+                    <p class="text-dark">william.taylor@example.com</p>
+                    <div class="rating-stars">
+                      <i class="fas fa-star">⭐</i>
+                      <i class="fas fa-star">⭐</i>
+                      <i class="fas fa-star">⭐</i>
+                      <i class="fas fa-star">⭐</i>
+                      <i class="far fa-star">⭐</i>
+                    </div>
+                  </div>
+                </div>
+                <p class="text-dark" style="font-family: Times New Roman">
+                  I'm amazed by the variety of recipes Freepok Food offers! From
+                  breakfast to dinner, there's something for every meal. The
+                  step-by-step instructions make cooking a breeze.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--FAQ-->
+    <section id="faq">
+      <div class="container">
+        <div class="faq-section">
+          <h2
+            class="text-white fw-bold"
+            style="
+              font-family: Times New Roman;
+              font-size: 40px;
+              margin-bottom: 30px;
+              color: #b58900;
+              text-shadow: 3px 2px 4px rgb(0, 0, 0);
+            "
+          >
+            Frequently Asked Questions
+          </h2>
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button
+                  class="accordion-button"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne"
+                  aria-expanded="true"
+                  aria-controls="collapseOne"
+                >
+                  How can I access Freepok Food's meal plans and recipes?
+                </button>
+              </h2>
+              <div
+                id="collapseOne"
+                class="accordion-collapse collapse show"
+                aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <p>
+                    You can access Freepok Food's meal plans and recipes by
+                    visiting our website and signing up for an account. Once
+                    registered, you'll have access to a wide range of delicious
+                    and nutritious recipes tailored to your taste and dietary
+                    preferences.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="collapseTwo"
+                >
+                  Are the ingredients used in Freepok Food's recipes easy to
+                  find?
+                </button>
+              </h2>
+              <div
+                id="collapseTwo"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingTwo"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <p>
+                    Yes, we strive to make our recipes convenient for everyone.
+                    We use common and easily accessible ingredients that you can
+                    find at your local grocery store or market. We also provide
+                    substitution suggestions in case you can't find a specific
+                    ingredient.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree"
+                  aria-expanded="false"
+                  aria-controls="collapseThree"
+                >
+                  Does Freepok Food offer any support for individuals with
+                  dietary restrictions or allergies?
+                </button>
+              </h2>
+              <div
+                id="collapseThree"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingThree"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <p>
+                    Absolutely! We understand the importance of catering to
+                    diverse dietary needs. Our meal plans and recipes include
+                    options for various dietary restrictions, including
+                    gluten-free, dairy-free, vegetarian, and vegan. We also
+                    provide allergen information and alternatives to accommodate
+                    different allergies and intolerances.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+      <div class="container text-white">
+        <div class="row al">
+          <div class="col-md-3 col-sm-6 text-lg-start text-center">
+            <a class="navbar-brand" href="#">
+              <img
+                src="./assets/images/past.jpg"
+                alt=""
+                style="border-radius: 50%; width: 100px; height: 100px"
+              />
+            </a>
+            <h5 class="mt-4 fw-bold">About Us</h5>
+            <p>
+              At Freepok Food, we're dedicated to providing culinary inspiration
+              and promoting healthy living through our diverse collection of
+              recipes, cooking tips, and nutritional insights.
+            </p>
+          </div>
+          <div class="col-md-3 col-sm-6 text-lg-start ps-lg-5 ps-0 text-center">
+            <h5 class="fw-bold">Services</h5>
+            <ul class="list-unstyled" style="list-style-type: none; padding-left: 0;">
+              <li><a href="#" style="color: white; text-decoration: none;">Service 1</a></li>
+              <li><a href="#" style="color: white; text-decoration: none;">Service 2</a></li>
+              <li><a href="#" style="color: white; text-decoration: none;">Service 3</a></li>
+              <li><a href="#" style="color: white; text-decoration: none;">Service 4</a></li>
+              <li><a href="#" style="color: white; text-decoration: none;">Service 5</a></li>
+            </ul>
+            
+          </div>
+          <div class="col-md-3 col-sm-6 text-lg-start text-center">
+            <h5 class="fw-bold">Contact Us</h5>
+            <p>
+              Crosiing Purong Brgy Nabulao<br />
+              Sipalay City, Philipinpini
+            </p>
+            <p>Email: janriancoronel@gmail.com <br />Phone: 09157480052</p>
+          </div>
+          <div class="col-md-3 col-sm-6 text-lg-start text-center">
+            <h5 class="fw-bold">Newsletter</h5>
+            <form>
+              <div class="input-group mb-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  style="border-radius: 1px"
+                  placeholder="Email"
+                  aria-label="Email"
+                  aria-describedby="button-addon2"
+                />
+                <button
+                  class="btn btn-primary"
+                  type="button"
+                  id="button-addon2"
+                >
+                  Subscribe
+                </button>
+              </div>
+            </form>
+            <p>
+              Subscribe to Freepok Food and embark on a journey to healthier
+              eating!
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"
+  ></script>
+</html>

@@ -1,0 +1,286 @@
+:root {
+    --bg1: #7b6c10;        /* Dark yellow background color */
+    --bg2: #2d1488;        /* Darker purple background color */
+    --body: #ffffff;       /* White for main body text */
+    --brand: #ffffff;      /* White for brand elements */
+    --white: #e0a331;      /* White text color */
+    --p: #ffffff;          /* White text color for paragraphs */
+    --bg5: #7b6c10;        /* Dark yellow background color */
+    --bg6: #1f191e;        /* Slightly lighter dark background color */
+    --bg7: #383638;
+}
+
+* {
+    font-family: "arial" !important;
+}
+
+body {
+    background-color: var(--bg6);
+}
+/* bannner */
+#banner {
+    background-image: url(https://img.freepik.com/free-photo/ingredients-near-pizza_23-2147772081.jpg?t=st=1714971317~exp=1714974917~hmac=47271c47d2f180fa86b3ce96a06887c203b762a0a7743e360fd8559152f50441&w=826);
+    height: 100vh;
+    background-size: cover;
+}
+
+ /* end of banner */
+
+ /* navbar  */
+ .navbar {
+    background: var(--bg7); /* Added semicolon here */
+    box-shadow: 0px 2px 4px rgba(255, 255, 255, 0.5);
+}
+
+.navbar .nav-link:hover {
+    color: var(--white) !important;
+}
+/* end of navbar */
+
+.col-lg-6 img {
+    margin-top: 20px;
+}
+
+.btn {
+    padding: 15px 30px;
+    transition: all 0.4s ease;
+    font-weight: 800;
+    border-radius: 30px;
+}
+.btn-brand {
+    background-color: var(--white);
+    border-color: var(--white);
+}
+
+.btn-brand:hover {
+    background-color: transparent;
+    color: var(--white);
+    border-color: var(--white);
+}
+
+section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#about {
+    background: var(--bg7);
+}
+
+/*services*/
+
+#services {
+    background: var(--bg6);
+}
+
+.icon-box-img {
+    width: 40%;
+    border: 3px solid var(--bg6); /* Set border color to dark */
+    border-radius: 10px; /* Optional: Add border radius for rounded corners */
+}
+
+.btn-outline-brand {
+    background-color: transparent;
+    color: var(--bg6);
+    border-color: var(--bg6);
+}
+
+.btn-outline-brand:hover {
+    background-color: var(--bg6);
+    color: var(--bg6);
+    border: 1px solid #ffffff !important;
+}
+
+.card {
+    transition: background-color 0.3s, color 0.3s, box-shadow 0.3s; /* Add box-shadow transition */
+    box-shadow: 0px 5px 15px rgba(255, 255, 255, 0.5); /* Set white shadow */
+}
+
+.card:hover {
+    background-color: var(--bg6);
+    box-shadow: 0px 5px 15px rgba(255, 255, 255, 0); /* Set white shadow */
+    border: 1px solid #fff;
+}
+
+.card:hover .card-title,
+.card:hover .card-text,
+.card:hover .btn {
+    color: rgb(255, 255, 255);
+}
+.card:hover .btn{
+    border: 1px solid #ffffffff;
+}
+/*end of services*/
+
+#cta {
+    position: relative;
+    opacity: 0.90;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* parallax efect */
+    background-attachment: fixed;
+    /* parellax effect / to remove to effect set to normal */
+    background-image: url(https://img.freepik.com/free-photo/shrimp-batter-lettuce-tomato_140725-2194.jpg?t=st=1714971847~exp=1714975447~hmac=cab3257bde71473dab98c6ac89e0c22f3a56c06d9d822c52f55215bdfc36eee8&w=740);
+    min-height: 70vh;
+}
+/*reviews*/
+
+#reviews {
+    background-color: var(--bg6);
+}
+
+.testimonials {
+    background-color: var(--body);
+    padding: 30px;
+}
+    
+.testimonials img {
+    width: 65px;
+    border-radius: 30px;
+    border-color: #0f0a0a;
+    height: 65px;
+}
+
+/* reviews*/
+#reviews {
+    
+    padding-top: 1px; /* Reduce top padding */
+    padding-bottom: 10px; /* Reduce bottom padding */
+}
+
+.testimonials {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5); /* White shadow */
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.testimonials img {
+    border: 3px solid black; /* Dark border for the picture */
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+}
+
+.testimonials h3, .testimonials p {
+    color: var(--bg2);
+}
+
+#reviews h2, #reviews p {
+    color: white;
+}
+
+#reviews .container {
+    padding-top: 20px;
+}
+
+.row-cols-lg-3 .col {
+    display: flex;
+    justify-content: center;
+}
+
+/*FAQ*/
+#faq {
+    background-image: url(https://img.freepik.com/free-photo/top-view-chinese-hot-pot_23-2149529757.jpg?t=st=1714980565~exp=1714984165~hmac=f7ef04c0a4066d434b167141c21534df9baea43fb6c78aed87225ddcc2027242&w=740);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.accordion-item {
+    margin-bottom: 30px; /* Add margin between accordion items */
+}
+
+.accordion-button {
+    background-color: #fffcfc;
+    border: none;
+    border-bottom: 1px solid #0f0a0a;
+    border-radius: 0;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #343a40;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    border-bottom: 1px solid white; /* Update border color */
+    text-decoration-color: white;
+}
+
+/* Target anchor tags inside accordion buttons */
+.accordion-button a {
+    text-decoration: none; /* Remove underline from anchor tags */
+}
+
+.accordion-body {
+    border-left: 3px solid var(--bg2);
+    padding: 10px 15px;
+    margin-left: 0;
+    background-color: #f8f9fa;
+    border-left: 3px solid white; /* Update border color */
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) {
+    color: var(--brand);
+    border-bottom: 1px solid white; /* Update border color */
+    text-decoration-color: white; /* Update underline color */
+}
+
+.accordion-button:hover {
+    background-color: var(--body);
+    color: var(--bg2);
+}
+
+.accordion-button::after {
+    font-family: "font awesome 5 free";
+    content: ""; /* plus icon */
+    float: right;
+    font-weight: 900;
+    margin-left: auto;
+}
+
+.accordion-button[aria-expanded="true"]::after {
+    content: ""; /* minus icon*/
+}
+
+
+
+
+/*footer*/
+.footer .container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footer h5 {
+    margin-bottom: 20px;
+}
+
+.footer p {
+    margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+    .footer .col-md-3 {
+        margin-bottom: 30px;
+    }
+}
+
+#footer {
+    background-color: rgb(20, 20, 20);
+    margin-top: 30px;
+}
+
+.btn-primary {
+    border-radius: 0;
+}
+
+.footer ul li a {
+    text-decoration: none; /* Remove underline from links */
+}
